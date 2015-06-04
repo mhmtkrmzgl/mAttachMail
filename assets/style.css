@@ -1,0 +1,62 @@
+/* Çekirdek Stil Dosyası */
+
+div#attach{
+    display: block;
+    width: 500px;
+    height: auto;
+    overflow: auto;
+    margin: 50px auto;
+    border : 1px solid #ccc;
+    background: #fafafa;
+    padding: 25px 0;
+}
+div#attach input{
+    display: block;
+    float: left;
+    width: 90%;
+    height: 30px;
+    margin: 0 5%;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+div#attach textarea{
+    display: block;
+    float: left;
+    width: 90%;
+    height: 80px;
+    margin: 0 5%;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+div#attach button{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin: 0 5%;
+    font-size: 16px;
+    background: #333;
+    outline: 0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+div.response{
+    display: block;
+    float: left;
+    width: 90%;
+    margin: 0 5%;
+}
+div.response p{
+    display: block;
+    float: left;
+    width: 90%
+    height: 30px;
+    padding: 15px 0;
+    font-size: 14px;
+}
+div.response p.success{color: #16cb6a;}
+div.response p.warning{color: #e5a412;}
+div.response p.error{color: #f51616;}
